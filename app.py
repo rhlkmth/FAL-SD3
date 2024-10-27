@@ -57,7 +57,7 @@ with st.sidebar:
     st.header("API Configuration")
     api_key = st.text_input(
         "Enter your FAL API Key",
-        type="text",
+        type="password",
         value=st.session_state.api_key,
         help="Enter your FAL API key. Get one at fal.ai"
     )
